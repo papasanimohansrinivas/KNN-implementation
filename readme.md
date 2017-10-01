@@ -33,9 +33,14 @@ Note: assume it is a dedicated server not AWS or Heroku.
 
 ### Manual Deployment Notes
 
-my api_key for map_box is "pk.eyJ1IjoibW9oYW4wMCIsImEiOiJjajg0bDdudDYwOHM1MndwZmNjenp1dTduIn0.LxknjhXAQ_1n98amoXAANw"
+apikeys for map_box :- 
 
-or u could try "pk.eyJ1IjoibW9oYW4wMCIsImEiOiJjajgzZDZ6bGo3ZHdzMzNycjdlcnZqeHY4In0.caVuIsMV5qClz4zHIKvFIg"
+assign one of those apikeys  to map_box_key variable in map_box.py file
+
+"pk.eyJ1IjoibW9oYW4wMCIsImEiOiJjajg0bDdudDYwOHM1MndwZmNjenp1dTduIn0.LxknjhXAQ_1n98amoXAANw"
+
+"pk.eyJ1IjoibW9oYW4wMCIsImEiOiJjajgzZDZ6bGo3ZHdzMzNycjdlcnZqeHY4In0.caVuIsMV5qClz4zHIKvFIg"
+
 
 ## Running Tests
 
