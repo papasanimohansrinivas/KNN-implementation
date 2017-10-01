@@ -3,7 +3,13 @@ Please rename this doc to "README.md" and provide it with your submission.
 
 If you need to use imagery, create a `docs` folder, put your screenshots or images in there, and link them like this:
 
-<img src="docs/img.jpg" />
+for running the file 
+
+<img src="docs/cmd.PNG" />
+
+sample output from out.csv
+
+<img src="docs/cmd1.PNG"/ >
 
 --- END NOTES ---
 
