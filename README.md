@@ -42,8 +42,7 @@ To run tests from terminal in ubuntu
 use cmd:- python3 geocodingValidator_.py location-for-dev.csv output_filename.csv
 
 ## Running Tests
-
-inputfile for testing is location-for-dev.csv
+Tests are run with given location-for-dev.csv file 
 
 outputfile is named as out.csv
 
@@ -55,3 +54,6 @@ screen shots are taken while running the code from terminal.
 JSON format returned by MAPBOX services contains usually country,county,state,city,lat,long information contained as key,values
 
 U could acces them as variable.json['country'],variable.json['county'] etc..
+
+map_box.py file may show  error statements  if map_box_api returns null values for given lat,long or addresses
+
