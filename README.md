@@ -11,6 +11,11 @@ sample output from out.csv
 
 <img src="docs/cmd_1.PNG" />
 
+you can open the outputfile in cmd and can check result like this
+
+<img src="docs/cmd_3.PNG" />
+
+
 --- END NOTES ---
 
 # Geofencing Validator 
