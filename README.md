@@ -1,5 +1,3 @@
---- NOTES - REMOVE THIS SECTION  
-This document should be provided with your submission instead of any .txt or .doc files.
 
 Please rename this doc to "README.md" and provide it with your submission.
 
@@ -19,11 +17,17 @@ Deployment Guide
   1. geocoder module
 2.Mapbox apikey for their geocoding services.
   2. api_key for map_box_key = 
+  2."pk.eyJ1IjoibW9oYW4wMCIsImEiOiJjajg0bDdudDYwOHM1MndwZmNjenp1dTduIn0.LxknjhXAQ_1n98amoXAANw"
+
+  2."pk.eyJ1IjoibW9oYW4wMCIsImEiOiJjajgzZDZ6bGo3ZHdzMzNycjdlcnZqeHY4In0.caVuIsMV5qClz4zHIKvFIg"
+
 
 
 ## Local Deployment
 
-Py -3 geocodingValidator_.py location-for-dev.csv output_filename.csv
+To run tests from terminal in ubuntu 
+
+python3 geocodingValidator_.py location-for-dev.csv output_filename.csv
 
 
 ## Production Build and Installation
@@ -34,15 +38,12 @@ Note: assume it is a dedicated server not AWS or Heroku.
 
 ### Manual Deployment Notes
 
-apikeys for map_box :- 
-
-assign one of those apikeys  to map_box_key variable in map_box.py file
-
-"pk.eyJ1IjoibW9oYW4wMCIsImEiOiJjajg0bDdudDYwOHM1MndwZmNjenp1dTduIn0.LxknjhXAQ_1n98amoXAANw"
-
-"pk.eyJ1IjoibW9oYW4wMCIsImEiOiJjajgzZDZ6bGo3ZHdzMzNycjdlcnZqeHY4In0.caVuIsMV5qClz4zHIKvFIg"
-
-
 ## Running Tests
 
+outputfile is named as out.csv
+
 ## Notes
+
+I ran these tests on rented instance of ubuntu 16.04 on google cloud platform 
+
+screen shots are while running the code from terminal.
