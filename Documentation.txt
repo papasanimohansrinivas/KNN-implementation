@@ -1,5 +1,0 @@
-script is currently in python 2.7 
-
-Sorry for the inconvience 
-
-I developed it on windows.
