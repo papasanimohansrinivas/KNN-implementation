@@ -1,9 +1,5 @@
 
-Please rename this doc to "README.md" and provide it with your submission.
-
-If you need to use imagery, create a `docs` folder, put your screenshots or images in there, and link them like this:
-
-for running the file 
+for running the code
 
 <img src="docs/cmd.PNG" />
 
