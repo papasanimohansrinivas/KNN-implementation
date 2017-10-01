@@ -9,7 +9,7 @@ for running the file
 
 sample output from out.csv
 
-<img src="docs/cmd1.PNG"/ >
+<img src="docs/cmd1.PNG" / >
 
 --- END NOTES ---
 
