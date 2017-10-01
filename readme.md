@@ -17,6 +17,7 @@ Deployment Guide
 ## Prerequisites
 1. Python 3
   1. geocoder module
+2.Mapbox apikey for their geocoding services.
 
 
 ## Local Deployment
@@ -31,6 +32,10 @@ Note: assume it is a dedicated server not AWS or Heroku.
 ```
 
 ### Manual Deployment Notes
+
+my api_key for map_box is "pk.eyJ1IjoibW9oYW4wMCIsImEiOiJjajg0bDdudDYwOHM1MndwZmNjenp1dTduIn0.LxknjhXAQ_1n98amoXAANw"
+
+or u could try "pk.eyJ1IjoibW9oYW4wMCIsImEiOiJjajgzZDZ6bGo3ZHdzMzNycjdlcnZqeHY4In0.caVuIsMV5qClz4zHIKvFIg"
 
 ## Running Tests
 
