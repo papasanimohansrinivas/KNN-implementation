@@ -1,5 +1,3 @@
 # Geofencing_validator
 
-# currently in python 2.7 
-
-# soon porting to python 3.3
+code is ported to python 3 from python 2
