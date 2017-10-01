@@ -8,42 +8,50 @@ If you need to use imagery, create a `docs` folder, put your screenshots or imag
 --- END NOTES ---
 
 # Geofencing Validator 
-Deployment Guide
 
-### Checks whether address is appropriate for given lat,long
+# User Guide
+
+If you have pip3 installed in linux 
+then use "sudo pip3 install geocoder"
+
+else if ypu don't have even pip 
+then install pip3 with 
+"sudo apt-get install python3-setuptools"
+then  "sudo easy_install3 pip"
+then again try "sudo pip3 install geocoder"
+
+# Project Description
+
+  Checks whether address is appropriate for given lat,long
 
 ## Prerequisites
 1. Python 3
-  1. geocoder module
+  1. geocoder module is must
 2.Mapbox apikey for their geocoding services.
-  2. api_key for map_box_key = 
-  2."pk.eyJ1IjoibW9oYW4wMCIsImEiOiJjajg0bDdudDYwOHM1MndwZmNjenp1dTduIn0.LxknjhXAQ_1n98amoXAANw"
+  2. api_key for map_box_api = 
+  api_key_1 = "pk.eyJ1IjoibW9oYW4wMCIsImEiOiJjajg0bDdudDYwOHM1MndwZmNjenp1dTduIn0.LxknjhXAQ_1n98amoXAANw"
 
-  2."pk.eyJ1IjoibW9oYW4wMCIsImEiOiJjajgzZDZ6bGo3ZHdzMzNycjdlcnZqeHY4In0.caVuIsMV5qClz4zHIKvFIg"
+  api_key_2 = "pk.eyJ1IjoibW9oYW4wMCIsImEiOiJjajgzZDZ6bGo3ZHdzMzNycjdlcnZqeHY4In0.caVuIsMV5qClz4zHIKvFIg"
 
 
 
-## Local Deployment
+## Local Testing
 
 To run tests from terminal in ubuntu 
 
-python3 geocodingValidator_.py location-for-dev.csv output_filename.csv
-
-
-## Production Build and Installation
-How to build the application for upload to a server
-```bash
-Note: assume it is a dedicated server not AWS or Heroku.
-```
-
-### Manual Deployment Notes
+use cmd:- python3 geocodingValidator_.py location-for-dev.csv output_filename.csv
 
 ## Running Tests
+
+inputfile for testing is location-for-dev.csv
 
 outputfile is named as out.csv
 
 ## Notes
+I ran tests on rented instance of ubuntu 16.04 on google cloud platform 
 
-I ran these tests on rented instance of ubuntu 16.04 on google cloud platform 
+screen shots are taken while running the code from terminal.
 
-screen shots are while running the code from terminal.
+JSON format returned by MAPBOX services contains usually country,county,state,city,lat,long information contained as key,values
+
+U could acces them as variable.json['country'],variable.json['county'] etc..
