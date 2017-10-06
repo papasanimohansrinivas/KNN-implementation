@@ -4,10 +4,10 @@
 KNN ipynb contains custom implemented knn code based on psuedo code
 
 It has following functions:
-                            read_file
-                            normalise_data
-                            KNN 
-                            accuracy
+                            read_file\n,
+                            normalise_data\n,
+                            KNN \n,
+                            accuracy\t,
 
  read_file:
            reads arff format file to a list
