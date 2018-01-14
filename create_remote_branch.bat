@@ -1,5 +1,5 @@
 echo off
 call git add *
 call git commit -m "hallauah"
-call git push hero hero:refs/heads/1r13 
+call git push hero origin:refs/heads/1r13 
 pause
